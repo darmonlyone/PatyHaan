@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PartyContainer with default value 1`] = `
+<DocumentFragment>
+  <div
+    class="min-h-screen h-full bg-gray-50 pt-12 lg:pt-16"
+  >
+    <div
+      class="px-0.5 sm:px-2 lg:px-4 py-2  flex flex-wrap items-center justify-center sm:items-start sm:justify-start"
+    >
+      <div
+        class="flex flex-col justify-center w-44 lg:w-52 m-1 sm:m-2 lg:m-3 shadow-md border border-gray-100 rounded-md bg-white"
+      >
+        <img
+          alt="No Image"
+          class="w-auto h-44 lg:h-52 rounded-t-md"
+          data-testid="image"
+          src="noimage.png"
+        />
+        <span
+          class="p-2 text-md lg:text-lg max2line h-14 lg:h-16"
+        >
+          qwqweqweq
+        </span>
+        <div
+          class="border-t border-gray-300 flex flex-row p-2"
+        >
+          <span
+            class="flex w-2/5 text-sm justify-start items-center"
+          >
+            2/4
+          </span>
+          <button
+            class="w-3/5 text-sm py-1"
+          >
+            เข้าร่วม
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

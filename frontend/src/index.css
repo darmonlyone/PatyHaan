@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.max2line{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.heightScreen{
+  max-height: -webkit-fill-available; /* for mobile screen */
+  height: 100vh;
+}
+
+@tailwind base;
+
+a {
+  @apply cursor-pointer;
+}
+
+button {
+  @apply cursor-pointer;
+  @apply rounded;
+  @apply px-2;
+  @apply py-2;
+  @apply bg-yellow-400;
+}
+
+button:disabled {
+  @apply opacity-50;
+}
+
+input {
+  @apply px-1;
+  @apply border-b;
+  @apply border-gray-600;
+  @apply rounded-none;
+}
+
+input:focus {
+  @apply border-yellow-400;
+}
+
+input:invalid {
+  @apply  border-gray-600;
+}
+
+input:valid {
+  @apply border-yellow-400;
+}
+
+h1{
+  @apply text-2xl;
+  @apply font-bold;
+}
+
+select {
+  @apply rounded;
+  @apply bg-white;
+  @apply px-2;
+  @apply py-1;
+  @apply border;
+  @apply border-solid;
+  @apply border-yellow-400;
+}
+
+select:focus-within {
+  @apply border-yellow-400;
+}
+
+@tailwind components;
+@tailwind utilities;
+

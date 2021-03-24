@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render PartyPlusButton with default value 1`] = `
+<DocumentFragment>
+  <button
+    class="fixed right-4 bottom-4 lg:right-6 lg:bottom-6 rounded-full bg-yellow-200 p-4 lg:p-6"
+    data-testid="plusbutton"
+  >
+    <svg
+      class="text-white w-6 h-6"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M20 14H14V20H10V14H4V10H10V4H14V10H20V14Z"
+      />
+    </svg>
+  </button>
+</DocumentFragment>
+`;

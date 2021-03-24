@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders InputField 1`] = `"<div class=\\"my-2 w-full\\"><span class=\\"mb-2 text-sm\\"></span><input class=\\"text-md w-full\\" type=\\"text\\" required=\\"\\" value=\\"\\"></div>"`;
+
+exports[`should renders InputField 2`] = `"<div class=\\"my-2 w-full\\"><span class=\\"mb-2 text-sm\\">test</span><input class=\\"text-md w-full\\" type=\\"text\\" required=\\"\\" value=\\"\\"></div>"`;
+
+exports[`should renders InputField 3`] = `"<div class=\\"my-2 w-full\\"><span class=\\"mb-2 text-sm\\">test2</span><input class=\\"w-full bg-gray-100\\" type=\\"text\\" required=\\"\\" value=\\"\\"></div>"`;
+
+exports[`should renders InputField 4`] = `"<div class=\\"my-2 w-full\\"><span class=\\"mb-2 text-sm\\">test2</span><input class=\\"text-md w-full\\" type=\\"password\\" required=\\"\\" value=\\"\\"></div>"`;

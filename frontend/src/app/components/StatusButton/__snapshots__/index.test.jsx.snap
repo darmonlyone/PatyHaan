@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render StatusButton with default owned 1`] = `
+<DocumentFragment>
+  <button
+    class="w-3/5 text-sm py-1 bg-red-400"
+  >
+    ลบปาร์ตี้
+  </button>
+</DocumentFragment>
+`;
+
+exports[`should render StatusButton with default value 1`] = `
+<DocumentFragment>
+  <button
+    class="w-3/5 text-sm py-1"
+  >
+    เข้าร่วม
+  </button>
+</DocumentFragment>
+`;
+
+exports[`should render StatusButton with status full 1`] = `
+<DocumentFragment>
+  <button
+    class="w-3/5 text-sm py-1 bg-gray-400"
+    disabled=""
+  >
+    เต็ม
+  </button>
+</DocumentFragment>
+`;
+
+exports[`should render StatusButton with status joined 1`] = `
+<DocumentFragment>
+  <button
+    class="w-3/5 text-sm py-1 bg-blue-400"
+  >
+    ออกปาร์ตี้
+  </button>
+</DocumentFragment>
+`;

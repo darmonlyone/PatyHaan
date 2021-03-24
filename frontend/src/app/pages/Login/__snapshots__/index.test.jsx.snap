@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Login page with default value 1`] = `
+<DocumentFragment>
+  <div
+    class="flex justify-center items-center w-screen heightScreen"
+  >
+    <div
+      class="w-full px-10 flex flex-col sm:px-5 sm:w-96 sm:py-4"
+    >
+      <img
+        alt="partyhaan logo"
+        class="w-36 h-36 sm:w-44 sm:h-44 mx-auto mb-10"
+        src="partyhaan.png"
+      />
+      <div
+        class="my-2 w-full"
+      >
+        <span
+          class="mb-2 text-sm"
+        >
+          อีเมล
+        </span>
+        <input
+          class="text-md w-full"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="my-2 w-full"
+      >
+        <span
+          class="mb-2 text-sm"
+        >
+          รหัสผ่าน
+        </span>
+        <input
+          class="text-md w-full"
+          required=""
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="flex flex-col sm:flex-row mt-2 sm:mt-4"
+      >
+        <button
+          class="w-full my-2 mr-0 sm:my-0 sm:mr-2"
+        >
+          เข้าสู่ระบบ
+        </button>
+        <button
+          class="w-full my-2 ml-0 sm:my-0 sm:ml-2 bg-blue-400 hover:bg-blue-500"
+        >
+          สร้างบัญชีผู้ใช้
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

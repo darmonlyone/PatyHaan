@@ -1,0 +1,77 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Home page with default value 1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <nav
+        class="fixed z-10 bg-white justify-between shadow-lg flex flex-row h-12 lg:h-16 top-0 w-full "
+      >
+        <div
+          class="w-1/3 flex justify-start pl-4"
+        >
+          <img
+            alt="nav logo"
+            class="hidden lg:block w-auto h-full pt-2"
+            src="partyhaan.png"
+          />
+        </div>
+        <div
+          class="flex items-center justify-center w-1/3"
+        >
+          <span
+            class="text-lg lg:text-xl font-bold text-black"
+          >
+            ปาร์ตี้ทั้งหมด
+          </span>
+        </div>
+        <div
+          class="w-1/3 flex justify-end items-center pr-4"
+        >
+          <button
+            class="bg-transparent hover:bg-transparent"
+          >
+            <svg
+              class="h-6 w-6 lg:h-8 lg:w-8 fill-current text-black"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"
+              />
+            </svg>
+          </button>
+        </div>
+      </nav>
+      <div
+        class="hidden fixed right-4 mt-10 lg:mt-14 w-32 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 z-20"
+      >
+        <p
+          class="block px-4 py-2 text-sm lg:text-md text-gray-700 hover:bg-gray-100 cursor-pointer"
+        >
+          Sign out
+        </p>
+      </div>
+    </div>
+    <div
+      class="min-h-screen h-full bg-gray-50 pt-12 lg:pt-16"
+    >
+      <div
+        class="px-0.5 sm:px-2 lg:px-4 py-2  flex flex-wrap items-center justify-center sm:items-start sm:justify-start"
+      />
+    </div>
+    <button
+      class="fixed right-4 bottom-4 lg:right-6 lg:bottom-6 rounded-full bg-yellow-200 p-4 lg:p-6"
+      data-testid="plusbutton"
+    >
+      <svg
+        class="text-white w-6 h-6"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M20 14H14V20H10V14H4V10H10V4H14V10H20V14Z"
+        />
+      </svg>
+    </button>
+  </div>
+</DocumentFragment>
+`;

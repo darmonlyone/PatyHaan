@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Register page with default value 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="flex justify-center items-center w-full heightScreen"
+    >
+      <div
+        class="w-full px-10 flex flex-col sm:px-5 sm:w-96 sm:py-4"
+      >
+        <h1
+          class="text-center mb-4 text-yellow-500"
+        >
+          สร้างบัญชีผู้ใช้ใหม่
+        </h1>
+        <div
+          class="my-2 w-full"
+        >
+          <span
+            class="mb-2 text-sm"
+          >
+            อีเมล
+          </span>
+          <input
+            class="text-md w-full"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
+        <div
+          class="my-2 w-full"
+        >
+          <span
+            class="mb-2 text-sm"
+          >
+            รหัสผ่าน
+          </span>
+          <input
+            class="text-md w-full"
+            required=""
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          class="my-2 w-full"
+        >
+          <span
+            class="mb-2 text-sm"
+          >
+            ยืนยันรหัสผ่าน
+          </span>
+          <input
+            class="text-md w-full"
+            required=""
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          class="my-4 flex flex-row"
+        >
+          <input
+            class="my-auto mr-4 border-none w-auto"
+            id="required"
+            name="required"
+            type="checkbox"
+          />
+          <label
+            class="text-sm cursor-pointer"
+            for="required"
+          >
+            ฉันยอมรับเงื่อนไขและข้อตกลงเกี่ยวกับการใช้งาน
+          </label>
+        </div>
+        <div
+          class="flex flex-col sm:flex-row mt-2 sm:mt-4"
+        >
+          <button
+            class="w-full my-2 mr-0 sm:my-0 sm:mr-2 sm:w-2/3"
+            disabled=""
+          >
+            ยืนยัน
+          </button>
+          <button
+            class="w-full my-2 ml-0 sm:my-0 sm:w-1/3 sm:ml-2 bg-red-400 hover:bg-red-500"
+          >
+            ยกเลิก
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

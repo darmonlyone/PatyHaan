@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should renders LinkButton 1`] = `"<button>test</button>"`;
+
+exports[`should renders LinkButton 2`] = `"<button class=\\"bg-red-500\\">test</button>"`;
+
+exports[`should renders LinkButton 3`] = `"<button>test</button>"`;
+
+exports[`should renders LinkButton 4`] = `"<button disabled=\\"\\">test</button>"`;
